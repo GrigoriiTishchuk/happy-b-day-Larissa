@@ -1,0 +1,70 @@
+relationship_research_dashboard/
+│
+├── app.py                         # Main entry point (router / intro boot)
+├── config.py                     # Theme, constants, global settings
+├── requirements.txt
+├── README.md
+│
+├── assets/
+│   ├── audio/
+│   │   └── ambient.mp3
+│   │
+│   ├── video/
+│   │   └── intro.mp4
+│   │
+│   ├── images/
+│   │   ├── gallery/
+│   │   ├── memories/
+│   │   ├── map/
+│   │   └── ui/
+│   │
+│   ├── animations/
+│   │   └── particles.json
+│   │
+│   └── fonts/
+│       └── inter.ttf
+│
+│
+├── data/
+│   ├── memories.json             # Timeline + memory cards
+│   ├── observations.json         # Field observations logs
+│   ├── locations.json            # GIS map points
+│   ├── metrics.json              # KPI dashboard values
+│   └── gallery_index.json        # image metadata (tags, categories)
+│
+│
+├── pages/                        # Streamlit multipage app
+│   ├── 01_dashboard.py          # KPI dashboard
+│   ├── 02_risk_assessment.py
+│   ├── 03_timeline.py           # narrative memory flow
+│   ├── 04_field_observations.py
+│   ├── 05_map.py                # GIS experience
+│   ├── 06_gallery.py            # visual archive only
+│   └── 07_research_report.py    # PDF generator + download
+│
+│
+├── components/                   # UI building blocks (VERY IMPORTANT)
+│   ├── layout.py                # page wrappers, containers
+│   ├── styles.py                # CSS + theme loader
+│   ├── navbar.py                # optional custom navigation
+│   ├── kpi_cards.py            # KPI dashboard cards
+│   ├── charts.py               # Plotly charts (timeline, forecast)
+│   ├── timeline.py             # timeline renderer (story logic)
+│   ├── gallery.py              # image grid + filters
+│   ├── map_view.py             # folium / pydeck map logic
+│   ├── observations.py         # field logs UI
+│   ├── pdf_report.py           # report generator
+│   ├── video_intro.py          # intro video component
+│   └── effects.py              # particles, animations, loaders
+│
+│
+├── utils/
+│   ├── helpers.py              # formatting, date utils, etc.
+│   ├── loaders.py              # load json/csv safely
+│   ├── fake_engine.py          # pseudo predictions (future projections)
+│   └── constants.py
+│
+│
+└── theme/
+    ├── css.css                 # full styling override
+    └── variables.css           # colors, gradients, fonts
