@@ -1,7 +1,6 @@
 import streamlit as st
 import time
 from utils.animations import typewriter, fade_transition
-
 st.set_page_config(
     page_title="Relationship Research Dashboard",
     layout="wide",
@@ -40,7 +39,6 @@ if st.session_state.phase == "gate":
     if st.button("▶ Initialize System"):
         st.session_state.phase = "boot"
         st.rerun()
-
 
 # 2. BOOT SEQUENCE (TYPEWRITER + SOUND)
 elif st.session_state.phase == "boot":

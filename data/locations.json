@@ -1,0 +1,64 @@
+[
+  {
+    "name": "First Meeting Spot",
+    "lat": 60.1699,
+    "lon": 24.9384,
+    "emotion": "uncertain",
+    "intensity": 0.55,
+    "note": "Initial encounter. Low certainty, high curiosity. System logs weak but promising signal.",
+    "date": "2024-09-12",
+    "tags": ["beginning", "meeting"]
+  },
+  {
+    "name": "Kaisaniemi Park Walk",
+    "lat": 60.1722,
+    "lon": 24.9460,
+    "emotion": "warm",
+    "intensity": 0.8,
+    "note": "Extended walk. Emotional synchronization observed. Reduced cognitive noise.",
+    "date": "2024-09-20",
+    "tags": ["walk", "nature", "connection"]
+  },
+  {
+    "name": "Late Night Tram Ride",
+    "lat": 60.1675,
+    "lon": 24.9400,
+    "emotion": "intimate",
+    "intensity": 0.9,
+    "note": "Quiet transit event. Strong emotional alignment detected during silence phase.",
+    "date": "2024-10-03",
+    "tags": ["night", "transit", "silence"]
+  },
+  {
+    "name": "Coffee Study Session",
+    "lat": 60.1687,
+    "lon": 24.9310,
+    "emotion": "focused",
+    "intensity": 0.7,
+    "note": "Parallel work activity. Stable shared focus state achieved.",
+    "date": "2024-10-15",
+    "tags": ["work", "study", "coffee"]
+  },
+  {
+    "name": "Winter City Center Walk",
+    "lat": 60.1705,
+    "lon": 24.9412,
+    "emotion": "reflective",
+    "intensity": 0.85,
+    "note": "Cold environment correlated with increased introspective dialogue.",
+    "date": "2024-12-01",
+    "tags": ["winter", "city", "reflection"]
+  },
+  {
+    "name": "Random Grocery Trip",
+    "lat": 60.1730,
+    "lon": 24.9370,
+    "emotion": "ordinary",
+    "intensity": 0.4,
+    "note": "Routine activity. Low emotional spikes but stable co-presence detected.",
+    "date": "2024-12-10",
+    "tags": ["daily life", "routine"]
+  }
+
+  "dates": [2026-03-28: first encounter, 2026-03-29: first bar, 2026-03-30: cafe lingua, 2026-04-10: THE DAY!, 2026-04-13: Grigorii came to Larissa's place and stayed overnight, 2026-04-14: Larissa came to Grigorii's place, 2026-05-14: trip Lammisaari, 2026-05-15: temporary farewell]
+]
