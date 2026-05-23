@@ -5,7 +5,7 @@ from utils.loaders import load_json
 
 def render_map():
     st.subheader("Emotional Geography System")
-    locations = load_json("data/locations.json")
+    locations = load_json("data/events.json")
     if not locations:
         st.warning("No location data available.")
         return
@@ -14,12 +14,12 @@ def render_map():
     # -----------------------------
     df = [
         {
-            "name": loc["name"],
+            "name": loc["title"],
             "lat": loc["lat"],
             "lon": loc["lon"],
             "emotion": loc.get("emotion", "neutral"),
             "intensity": loc.get("intensity", 0.5),
-            "note": loc.get("note", "")
+            "summary": loc.get("summary", "")
         }
         for loc in locations
     ]
@@ -71,7 +71,7 @@ def render_map():
         ">
             <b>{name}</b><br/>
             Emotion: {emotion}<br/>
-            Note: {note}
+            Summary: {summary}
         </div>
         """,
         "style": {
