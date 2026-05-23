@@ -30,3 +30,33 @@ def typewriter(text: str, speed: float = 0.03):
             time.sleep(speed)
 
     return placeholder
+
+def fade_transition(duration=1.2):
+
+    st.markdown(f"""
+    <style>
+    @keyframes fadeToBlack {{
+        from {{
+            opacity: 0;
+        }}
+        to {{
+            opacity: 1;
+        }}
+    }}
+    .fade-overlay {{
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        background: black;
+        z-index: 999999;
+        pointer-events: none;
+        animation: fadeToBlack {duration}s ease-in-out forwards;
+    }}
+    </style>
+
+    <div class="fade-overlay"></div>
+    """, unsafe_allow_html=True)
+
+    time.sleep(duration)

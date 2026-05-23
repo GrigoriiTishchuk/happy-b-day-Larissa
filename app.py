@@ -1,6 +1,6 @@
 import streamlit as st
 import time
-from utils.animations import typewriter
+from utils.animations import typewriter, fade_transition
 
 st.set_page_config(
     page_title="Relationship Research Dashboard",
@@ -24,6 +24,7 @@ h1, h2, h3 {
 .center {
     text-align: center;
 }
+
 </style>
 """, unsafe_allow_html=True)
 
@@ -56,8 +57,9 @@ elif st.session_state.phase == "boot":
     placeholder = st.empty()
     for msg in boot_messages:
         typewriter(msg, speed=0.02)
-        time.sleep(0.5)
-    time.sleep(5.0)
+        time.sleep(0.5) 
+    time.sleep(1.5)
+    fade_transition()
     st.session_state.phase = "intro"
     st.rerun()
 
@@ -68,6 +70,7 @@ elif st.session_state.phase == "intro":
     st.video("assets/video/intro.mp4", autoplay=True, muted=True)
     st.markdown("---")
     if st.button("Enter Research Dashboard"):
+        fade_transition()
         st.session_state.phase = "dashboard"
         st.rerun()
 
