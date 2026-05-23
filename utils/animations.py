@@ -1,8 +1,7 @@
 import streamlit as st
 import time
-from utils.sfx import play_click
 
-def typewriter(text: str, speed: float = 0.03, sound_every: int = 3):
+def typewriter(text: str, speed: float = 0.03):
     placeholder = st.empty()
     output = ""
     for i, char in enumerate(text):
@@ -24,13 +23,8 @@ def typewriter(text: str, speed: float = 0.03, sound_every: int = 3):
             """,
             unsafe_allow_html=True
         )
-        # SOUND LOGIC (FIXED)
-        # NOT PER CHARACTER, BUT EVERY NTH CHARACTER TO AVOID OVERLOAD
-        if char != " " and i % sound_every == 0:
-            play_click("soft")
         # strong punctuation accent
         if char in [".", "!", "?"]:
-            play_click("hard")
             time.sleep(speed * 6)
         else:
             time.sleep(speed)

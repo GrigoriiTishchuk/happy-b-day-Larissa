@@ -10,6 +10,9 @@ st.set_page_config(
 # STYLE
 st.markdown("""
 <style>
+audio {
+    display: none;
+}
 .stApp {
     background: linear-gradient(135deg, #0b1020, #0f172a, #111827);
     color: white;
@@ -41,6 +44,7 @@ if st.session_state.phase == "gate":
 # 2. BOOT SEQUENCE (TYPEWRITER + SOUND)
 elif st.session_state.phase == "boot":
     st.title("Initializing System...")
+    st.audio("assets/audio/keyboard1.mp3",autoplay=True)
     boot_messages = [
         "INITIALIZING RELATIONSHIP RESEARCH SYSTEM...",
         "RESEARCH SUBJECT: LARISSA ZOЁ HERRMANN...",
@@ -51,10 +55,9 @@ elif st.session_state.phase == "boot":
     ]
     placeholder = st.empty()
     for msg in boot_messages:
-        typewriter(msg, speed=0.02, sound_every=3)
-        placeholder.write("")  # spacing
-        time.sleep(0.6)
-    time.sleep(50.0)
+        typewriter(msg, speed=0.02)
+        time.sleep(0.5)
+    time.sleep(5.0)
     st.session_state.phase = "intro"
     st.rerun()
 
