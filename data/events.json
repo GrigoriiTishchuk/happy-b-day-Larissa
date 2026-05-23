@@ -1,0 +1,236 @@
+[
+  {
+    "id": 1,
+    "title": "First Encounter",
+    "date": "2026-03-28",
+    "lat": 60.1699,
+    "lon": 24.9384,
+    "emotion": "uncertain",
+    "intensity": 0.55,
+    "summary": "Initial contact event. Weak but intriguing signal detected.",
+    "story": "Two independent systems briefly intersected inside Helsinki, Irish intermidiator, Paul, was used. Initial synchronization remained unstable but unexpectedly promising. Curiosity levels increased immediately after first interaction.",
+    "tags": [
+      "beginning",
+      "encounter",
+      "signal"
+    ],
+
+    "media": [
+      "assets/images/gallery/first_encounter_1.jpg"
+    ]
+  },
+
+  {
+    "id": 2,
+    "title": "First Bar Together",
+    "date": "2026-03-29",
+    "lat": 60.1708,
+    "lon": 24.9425,
+
+    "emotion": "playful",
+    "intensity": 0.68,
+
+    "summary": "First shared nightlife environment.",
+
+    "story": "Controlled exposure to loud social environment produced unexpectedly positive synchronization. Verbal communication frequency increased while defensive emotional filtering decreased.",
+
+    "tags": [
+      "bar",
+      "nightlife",
+      "conversation"
+    ],
+
+    "media": [
+      "assets/images/gallery/bar_1.jpg",
+      "assets/images/gallery/bar_2.jpg"
+    ]
+  },
+
+  {
+    "id": 3,
+    "title": "Cafe Lingua Session",
+    "date": "2026-03-30",
+    "lat": 60.1685,
+    "lon": 24.9359,
+
+    "emotion": "warm",
+    "intensity": 0.72,
+
+    "summary": "Extended conversational exchange in calm environment.",
+
+    "story": "Sustained dialogue over caffeine-rich conditions resulted in increased emotional openness. Mutual comfort indicators stabilized for the first time.",
+
+    "tags": [
+      "cafe",
+      "conversation",
+      "comfort"
+    ],
+
+    "media": [
+      "assets/images/gallery/cafe_lingua_1.jpg"
+    ]
+  },
+
+  {
+    "id": 4,
+    "title": "The Day",
+    "date": "2026-04-10",
+    "lat": 60.1712,
+    "lon": 24.9418,
+
+    "emotion": "transformative",
+    "intensity": 0.96,
+
+    "summary": "Critical emotional breakthrough event.",
+
+    "story": "Major personal disclosure sequence initiated. Emotional barriers lowered significantly during prolonged interaction. Relationship state transitioned into a more stable bonded configuration.",
+
+    "tags": [
+      "date",
+      "confession",
+      "breakthrough",
+      "core-memory"
+    ],
+
+    "media": [
+      "assets/images/gallery/the_day_1.jpg",
+      "assets/images/gallery/the_day_2.jpg"
+    ]
+  },
+
+  {
+    "id": 5,
+    "title": "First Overnight Stay",
+    "date": "2026-04-13",
+    "lat": 60.1735,
+    "lon": 24.9472,
+
+    "emotion": "intimate",
+    "intensity": 0.92,
+
+    "summary": "Shared domestic environment established.",
+
+    "story": "Overnight co-presence produced strong trust indicators. Shared private space resulted in noticeable reduction of social masking behaviors and increased emotional stability.",
+
+    "tags": [
+      "overnight",
+      "trust",
+      "home",
+      "closeness"
+    ],
+
+    "media": [
+      "assets/images/gallery/overnight_1.jpg",
+      "assets/images/gallery/overnight_2.jpg"
+    ]
+  },
+
+  {
+    "id": 6,
+    "title": "Larissa Stayed at Grigorii's Place",
+    "date": "2026-04-24",
+    "end_date": "2026-04-27",
+    "lat": 60.1652,
+    "lon": 24.9314,
+
+    "emotion": "stable",
+    "intensity": 0.95,
+
+    "summary": "Multi-day cohabitation experiment successful.",
+
+    "story": "Extended domestic synchronization phase completed with minimal friction. Daily routines, shared silence, and parallel activities reinforced emotional compatibility metrics.",
+
+    "tags": [
+      "cohabitation",
+      "daily-life",
+      "comfort",
+      "bonding"
+    ],
+
+    "media": [
+      "assets/images/gallery/stay_1.jpg",
+      "assets/images/gallery/stay_2.jpg",
+      "assets/images/gallery/stay_3.jpg"
+    ]
+  },
+
+  {
+    "id": 7,
+    "title": "Ikina Concert & Club Night",
+    "date": "2026-04-25",
+    "lat": 60.1691,
+    "lon": 24.9449,
+
+    "emotion": "euphoric",
+    "intensity": 0.91,
+
+    "summary": "High-energy shared sensory experience.",
+
+    "story": "Music-heavy environment amplified emotional resonance significantly. Elevated excitement levels, movement synchronization, and physical proximity generated strong memory imprinting.",
+
+    "tags": [
+      "concert",
+      "music",
+      "club",
+      "euphoria"
+    ],
+
+    "media": [
+      "assets/images/gallery/ikina_1.jpg",
+      "assets/images/gallery/ikina_2.jpg"
+    ]
+  },
+
+  {
+    "id": 8,
+    "title": "Trip to Lammisaari",
+    "date": "2026-05-14",
+    "lat": 60.2190,
+    "lon": 24.8750,
+
+    "emotion": "peaceful",
+    "intensity": 0.88,
+
+    "summary": "Environmental escape event with high emotional calm.",
+
+    "story": "Nature exposure correlated strongly with emotional quietness and reflective dialogue. Reduced urban sensory noise enabled deeper interpersonal synchronization.",
+
+    "tags": [
+      "nature",
+      "trip",
+      "silence",
+      "reflection"
+    ],
+
+    "media": [
+      "assets/images/gallery/lammisaari_1.jpg",
+      "assets/images/gallery/lammisaari_2.jpg"
+    ]
+  },
+
+  {
+    "id": 9,
+    "title": "Temporary Farewell",
+    "date": "2026-05-15",
+    "lat": 60.1710,
+    "lon": 24.9395,
+
+    "emotion": "melancholic",
+    "intensity": 0.84,
+
+    "summary": "Short-term separation phase initiated.",
+
+    "story": "Temporary distance introduced elevated emotional weight despite rational understanding of reunion probability. Departure event revealed depth of attachment formed over previous interaction cycles.",
+
+    "tags": [
+      "farewell",
+      "distance",
+      "emotion",
+      "transition"
+    ],
+
+    "media": [
+      "assets/images/gallery/farewell_1.jpg"
+    ]
+  }
+]
