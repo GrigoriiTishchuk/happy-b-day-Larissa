@@ -1,64 +1,103 @@
 [
   {
-    "name": "First Meeting Spot",
+    "name": "First Encounter",
     "lat": 60.1699,
     "lon": 24.9384,
     "emotion": "uncertain",
     "intensity": 0.55,
-    "note": "Initial encounter. Low certainty, high curiosity. System logs weak but promising signal.",
-    "date": "2024-09-12",
-    "tags": ["beginning", "meeting"]
+    "note": "Initial contact event. Weak but highly intriguing signal detected. Beginning of archive formation.",
+    "date": "2026-03-28",
+    "tags": ["beginning", "encounter", "signal"]
   },
   {
-    "name": "Kaisaniemi Park Walk",
-    "lat": 60.1722,
-    "lon": 24.9460,
+    "name": "First Bar Together",
+    "lat": 60.1708,
+    "lon": 24.9425,
+    "emotion": "playful",
+    "intensity": 0.68,
+    "note": "First shared nightlife environment. Social synchronization levels increased noticeably.",
+    "date": "2026-03-29",
+    "tags": ["bar", "nightlife", "conversation"]
+  },
+  {
+    "name": "Cafe Lingua Session",
+    "lat": 60.1685,
+    "lon": 24.9359,
     "emotion": "warm",
-    "intensity": 0.8,
-    "note": "Extended walk. Emotional synchronization observed. Reduced cognitive noise.",
-    "date": "2024-09-20",
-    "tags": ["walk", "nature", "connection"]
+    "intensity": 0.72,
+    "note": "Extended conversational exchange in controlled caffeine-rich environment. Mutual curiosity stabilized.",
+    "date": "2026-03-30",
+    "tags": ["cafe", "conversation", "comfort"]
   },
   {
-    "name": "Late Night Tram Ride",
-    "lat": 60.1675,
-    "lon": 24.9400,
+    "name": "The Day",
+    "lat": 60.1712,
+    "lon": 24.9418,
+    "emotion": "transformative",
+    "intensity": 0.96,
+    "note": "Critical relationship event. Full-scale personal disclosure initiated. Emotional system boundaries significantly lowered.",
+    "date": "2026-04-10",
+    "tags": ["date", "confession", "breakthrough", "core-memory"]
+  },
+  {
+    "name": "First Overnight Stay",
+    "lat": 60.1735,
+    "lon": 24.9472,
     "emotion": "intimate",
-    "intensity": 0.9,
-    "note": "Quiet transit event. Strong emotional alignment detected during silence phase.",
-    "date": "2024-10-03",
-    "tags": ["night", "transit", "silence"]
+    "intensity": 0.92,
+    "note": "Shared domestic environment established. High trust indicators observed overnight.",
+    "date": "2026-04-13",
+    "tags": ["overnight", "trust", "home", "closeness"]
   },
   {
-    "name": "Coffee Study Session",
-    "lat": 60.1687,
-    "lon": 24.9310,
-    "emotion": "focused",
-    "intensity": 0.7,
-    "note": "Parallel work activity. Stable shared focus state achieved.",
-    "date": "2024-10-15",
-    "tags": ["work", "study", "coffee"]
+    "name": "Larissa Stayed at Grigorii's Place",
+    "lat": 60.1652,
+    "lon": 24.9314,
+    "emotion": "stable",
+    "intensity": 0.95,
+    "note": "Multi-day cohabitation experiment successful. Daily life synchronization achieved with minimal friction.",
+    "date": "2026-04-24",
+    "end_date": "2026-04-27",
+    "tags": ["cohabitation", "daily-life", "comfort", "bonding"]
   },
   {
-    "name": "Winter City Center Walk",
-    "lat": 60.1705,
-    "lon": 24.9412,
-    "emotion": "reflective",
-    "intensity": 0.85,
-    "note": "Cold environment correlated with increased introspective dialogue.",
-    "date": "2024-12-01",
-    "tags": ["winter", "city", "reflection"]
+    "name": "Ikina Concert & Club Night",
+    "lat": 60.1691,
+    "lon": 24.9449,
+    "emotion": "euphoric",
+    "intensity": 0.91,
+    "note": "High-energy shared sensory experience. Emotional amplification observed under music and crowd conditions.",
+    "date": "2026-04-25",
+    "tags": ["concert", "music", "club", "euphoria"]
   },
   {
-    "name": "Random Grocery Trip",
-    "lat": 60.1730,
-    "lon": 24.9370,
-    "emotion": "ordinary",
-    "intensity": 0.4,
-    "note": "Routine activity. Low emotional spikes but stable co-presence detected.",
-    "date": "2024-12-10",
-    "tags": ["daily life", "routine"]
+    "name": "Falling incident during chill day",
+    "lat": 60.1691,
+    "lon": 24.9449,
+    "emotion": "euphoric",
+    "intensity": 0.91,
+    "note": "Fruirful picnic event with sharing of our stories. Emotional amplification observed and deepness of feeling detected.",
+    "date": "2026-04-25",
+    "tags": ["nature", "trip", "silence", "cheese"]
+  },
+  {
+    "name": "Trip to Lammisaari",
+    "lat": 60.2190,
+    "lon": 24.8750,
+    "emotion": "peaceful",
+    "intensity": 0.88,
+    "note": "Environmental escape event. Nature exposure strongly correlated with emotional calm and closeness.",
+    "date": "2026-05-14",
+    "tags": ["nature", "trip", "silence", "reflection"]
+  },
+  {
+    "name": "Temporary Farewell",
+    "lat": 60.1710,
+    "lon": 24.9395,
+    "emotion": "melancholic",
+    "intensity": 0.84,
+    "note": "Short-term separation phase initiated. Elevated emotional weight detected despite temporal nature of departure.",
+    "date": "2026-05-15",
+    "tags": ["farewell", "distance", "emotion", "transition"]
   }
-
-  "dates": [2026-03-28: first encounter, 2026-03-29: first bar, 2026-03-30: cafe lingua, 2026-04-10: THE DAY!, 2026-04-13: Grigorii came to Larissa's place and stayed overnight, 2026-04-14: Larissa came to Grigorii's place, 2026-05-14: trip Lammisaari, 2026-05-15: temporary farewell]
 ]
