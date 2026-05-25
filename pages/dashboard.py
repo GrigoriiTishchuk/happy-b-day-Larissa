@@ -1,9 +1,8 @@
 import streamlit as st
-
 from components.kpi_cards import render_kpis
 from components.timeline import render_timeline
 from components.map_view import render_map
-from components.gallery import render_gallery
+from components.personal_notes import render_pdf
 from styles.style import load_styles
 from components.effects import init_particles
 from utils.audio import play_ambient 
@@ -30,7 +29,7 @@ st.markdown("---")
 tab1, tab2, tab3 = st.tabs([
     "🧠 Timeline",
     "🗺️ Map",
-    "📸 Gallery"
+    "📸 Personal notes"
 ])
 
 with tab1:
@@ -40,4 +39,4 @@ with tab2:
     render_map()
 
 with tab3:
-    render_gallery()
+    render_pdf()

@@ -1,0 +1,15 @@
+[
+  {
+    "id": 1,
+    "title": "Coffee Exposure Response",
+    "observation": "Subject displays measurable increase in conversational energy after caffeine intake.",
+    "details": [
+      "increased smiling frequency",
+      "higher storytelling output",
+      "stable eye contact retention"
+    ],
+    "conclusion": "Further coffee-based interaction protocols recommended.",
+    "severity": "low-risk",
+    "category": "caffeine"
+  }
+]
