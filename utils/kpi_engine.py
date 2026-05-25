@@ -1,15 +1,16 @@
 import json
 from collections import Counter
 from datetime import datetime
-
+import pandas as pd
 def load_events(path="data/events.json"):
     with open(path, "r", encoding="utf-8") as f:
         return json.load(f)
 
+
+# MAIN DASHBOARD KPIS
 def compute_kpis(events):
     if not events:
         return {}
-    
     # METRICS
     memory_count = len(events)
     intensities = [e.get("intensity", 0.5) for e in events]
@@ -40,4 +41,18 @@ def compute_kpis(events):
         "dominant_emotion": dominant_emotion,
         "density": round(density, 2),
         "stability": round(stability, 2)
+    }
+
+def build_texts_df(messages):
+    df = pd.DataFrame(messages)
+    df["date"] = df["datetime"].dt.date
+    df["hour"] = df["datetime"].dt.hour
+    return df
+
+# KPIS FOR COMMUNICATION
+def compute_basic_metrics(df):
+    return {
+        "total_messages": len(df),
+        "unique_days": df["date"].nunique(),
+        "messages_per_day": len(df) / max(df["date"].nunique(), 1)
     }

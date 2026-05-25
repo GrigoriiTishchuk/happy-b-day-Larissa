@@ -1,4 +1,5 @@
 import streamlit as st
+from components.communication import render_communication_tab
 from components.kpi_cards import render_kpis
 from components.timeline import render_timeline
 from components.map_view import render_map
@@ -26,9 +27,10 @@ st.markdown("---")
 # -----------------------------
 # MAIN SECTIONS
 # -----------------------------
-tab1, tab2, tab3 = st.tabs([
+tab1, tab2, tab3, tab4 = st.tabs([
     "🧠 Timeline",
     "🗺️ Map",
+    "💬 Communication",
     "📸 Personal notes"
 ])
 
@@ -39,4 +41,7 @@ with tab2:
     render_map()
 
 with tab3:
+    render_communication_tab()
+
+with tab4:
     render_pdf()
