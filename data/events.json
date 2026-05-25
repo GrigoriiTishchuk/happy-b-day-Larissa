@@ -14,13 +14,11 @@
       "encounter",
       "signal"
     ],
-
     "media": [
       "assets/images/first_encounter_1.jpg",
       "assets/images/first_encounter_2.jpg"
     ]
   },
-
   {
     "id": 2,
     "title": "First Bar Together",
