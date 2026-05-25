@@ -29,8 +29,8 @@ def enrich_messages(messages):
     enriched = []
     for m in messages:
         emo = detect_emotion(m["text"])
-        enriched.append({
-            **m,
+        # Unapcking dict with **m notation and adding new keys to message
+        enriched.append({**m,
             # VADER core
             "sentiment_score": emo["score"],
             "sentiment_label": emo["label"],
