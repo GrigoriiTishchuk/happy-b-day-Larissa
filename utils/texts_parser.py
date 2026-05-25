@@ -1,6 +1,7 @@
 import re
 from datetime import datetime
 from collections import defaultdict
+from utils.emotions_engine import detect_emotion
 
 def parse_texts(file_path):
     messages = []
@@ -23,3 +24,14 @@ def parse_texts(file_path):
                     "text": text
                 })
     return messages
+
+def enrich_messages(messages):
+    enriched = []
+    for m in messages:
+        emo = detect_emotion(m["text"])
+        enriched.append({
+            **m,
+            "emotion_score": emo["score"],
+            "emotion_label": emo["label"]
+        })
+    return enriched

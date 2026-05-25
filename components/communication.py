@@ -1,13 +1,14 @@
 import streamlit as st
 import plotly.express as px
-from utils.texts_parser import parse_texts
+from utils.texts_parser import parse_texts, enrich_messages
 from utils.kpi_engine import build_texts_df, compute_basic_metrics
 
 def render_communication_tab():
     st.title("Communication Analytics")
     # LOAD DATA
     messages = parse_texts("data/texts.txt")
-    df = build_texts_df(messages)
+    messages_enriched = enrich_messages(messages)
+    df = build_texts_df(messages_enriched)
     metrics = compute_basic_metrics(df)
     # KPIS
     col1, col2, col3 = st.columns(3)

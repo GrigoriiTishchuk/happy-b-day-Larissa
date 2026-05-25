@@ -52,18 +52,7 @@ A fake scientific dashboard showing “metrics” like:
 
 ---
 
-## 3. ⚠️ Risk Assessment (Ecotoxicology Style)
-Styled like environmental safety analysis:
-- Emotional exposure levels
-- Cognitive stability (joke metric)
-- Attachment persistence
-- “Safe / Elevated / Critical” states
-
-**Goal:** playful scientific exaggeration
-
----
-
-## 4. 🧾 Timeline of Memories
+## 3. 🧾 Timeline of Memories
 Interactive chronological story:
 - first meeting
 - trips
@@ -80,17 +69,7 @@ Each entry includes:
 
 ---
 
-## 5. 🔮 Pseudo Future Extrapolation
-Fake predictive analytics:
-- relationship “trend line”
-- happiness forecast
-- future milestones (joke-based)
-
-**Goal:** humor + visual storytelling via data
-
----
-
-## 6. 🧪 Field Observations
+## 4. 🧪 Field Observations
 Scientific journal-style entries describing behavior:
 - funny daily moments
 - habits
@@ -103,7 +82,7 @@ Format:
 
 ---
 
-## 7. 🗺️ GIS Memory Map
+## 5. 🗺️ GIS Memory Map
 Interactive map with:
 - places you visited together
 - clickable markers
@@ -118,17 +97,7 @@ Each location includes:
 
 ---
 
-## 8. 🖼️ Photo Gallery
-Curated collection of shared images:
-- polaroid style or grid layout
-- grouped by events or moods
-- optional captions
-
-**Goal:** visual nostalgia
-
----
-
-## 9. 📄 Fake Research Paper (PDF Export)
+## 6. 📄 Fake Research Paper (PDF Export)
 Downloadable scientific-style report:
 - abstract
 - findings
@@ -138,6 +107,20 @@ Downloadable scientific-style report:
 Generated as PDF using ReportLab.
 
 **Goal:** final “official documentation”
+
+
+---
+
+## 6. 💬 Communication Diagnostic
+Report according to text communication between researcher and the subject:
+- abstract
+- findings
+- conclusions
+- humorous scientific tone
+
+Showcase how communication was built with basic metrics.
+
+**Goal:** Show how we performed
 
 ---
 
