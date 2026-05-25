@@ -17,7 +17,7 @@ play_ambient()
 # HEADER
 # -----------------------------
 st.title("Relationship Research Dashboard")
-st.caption("Emotional analytics system • confidential archive")
+st.markdown("""<div><h3>Emotional analytics system • confidential archive</h3></div>""", unsafe_allow_html=True)
 st.markdown("---")
 # -----------------------------
 # KPI SECTION

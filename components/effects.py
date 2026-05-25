@@ -3,7 +3,6 @@ import streamlit as st
 def init_particles():
     st.markdown("""
     <style>
-
     /* soft animated background glow */
     .stApp {
         background: radial-gradient(circle at 20% 20%, rgba(125,211,252,0.08), transparent 40%),

@@ -156,7 +156,6 @@ Theme:
 ## 🧊 Motion Design
 - progress bars
 - fake computation loading states
-- gradual content reveal
 
 ---
 
@@ -172,6 +171,7 @@ Theme:
 - ReportLab (PDF generation)
 - Pillow (images)
 - streamlit-extras (UI effects)
+- VADER (from vaderSentiment)
 
 ---
 

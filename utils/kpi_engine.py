@@ -6,7 +6,6 @@ def load_events(path="data/events.json"):
     with open(path, "r", encoding="utf-8") as f:
         return json.load(f)
 
-
 # MAIN DASHBOARD KPIS
 def compute_kpis(events):
     if not events:
@@ -15,7 +14,6 @@ def compute_kpis(events):
     memory_count = len(events)
     intensities = [e.get("intensity", 0.5) for e in events]
     avg_intensity = sum(intensities) / len(intensities)
-    
     emotions = [e.get("emotion", "unknown")for e in events]
     dominant_emotion = Counter(emotions).most_common(1)[0][0]
     # TIME SPREAD (density proxy)
@@ -47,6 +45,10 @@ def build_texts_df(messages):
     df = pd.DataFrame(messages)
     df["date"] = df["datetime"].dt.date
     df["hour"] = df["datetime"].dt.hour
+    # Fill missing emotion/sentiment data with neutral defaults
+    df["sentiment_label"] = df["sentiment_label"]
+    df["sentiment_score"] = df["sentiment_score"]
+    df["emotion"] = df["emotion"]
     return df
 
 # KPIS FOR COMMUNICATION

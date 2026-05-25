@@ -57,3 +57,34 @@ def render_communication_tab():
         title="Hourly Activity Distribution"
     )
     st.plotly_chart(fig4, use_container_width=True)
+
+    # EMOTION DISTRIBUTION
+    emotion_dist = (df.groupby(["sender", "emotion"]).size().reset_index(name="count"))
+    fig5 = px.bar(
+        emotion_dist,
+        x="sender",
+        y="count",
+        color="emotion",
+        barmode="stack",
+        title="Emotion Distribution by Sender"
+    )
+    st.plotly_chart(fig5, use_container_width=True)
+    # SENTIMENT trend (mean of sentiment scores per day)
+    sentiment_trend = df.groupby("date")["sentiment_score"].mean().reset_index()
+    fig6 = px.line(
+        sentiment_trend,
+        x="date",
+        y="sentiment_score",
+        title="Sentiment Over Time"
+    )
+    st.plotly_chart(fig6, use_container_width=True)
+    # EMOTIONAL VOLATILITY (standard deviation of sentiment scores per day)
+    volatility = df.groupby("date")["sentiment_score"].std().reset_index()
+    fig7 = px.line(
+        volatility,
+        x="date",
+        y="sentiment_score",
+        title="Emotional Volatility"
+    )
+
+    st.plotly_chart(fig7, use_container_width=True)

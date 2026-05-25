@@ -5,6 +5,7 @@ from utils.emotions_engine import detect_emotion
 
 def parse_texts(file_path):
     messages = []
+    # WhatsApp export format: "dd.mm.yyyy, hh:mm - Sender: Message"
     pattern = r"(\d{1,2}\.\d{1,2}\.\d{2,4}), (\d{1,2}:\d{2}) - (.*?): (.*)"
     with open(file_path, "r", encoding="utf-8") as f:
         for line in f:
@@ -14,8 +15,7 @@ def parse_texts(file_path):
                 try:
                     dt = datetime.strptime(
                         f"{date_str} {time_str}",
-                        "%d.%m.%Y %H:%M"
-                    )
+                        "%d.%m.%Y %H:%M")
                 except:
                     continue
                 messages.append({
@@ -31,7 +31,10 @@ def enrich_messages(messages):
         emo = detect_emotion(m["text"])
         enriched.append({
             **m,
-            "emotion_score": emo["score"],
-            "emotion_label": emo["label"]
+            # VADER core
+            "sentiment_score": emo["score"],
+            "sentiment_label": emo["label"],
+            # your ML-style emotion label
+            "emotion": emo["emotion"]
         })
     return enriched
