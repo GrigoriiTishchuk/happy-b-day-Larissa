@@ -1,34 +1,48 @@
-from transformers import pipeline
-# lazy-load model (important for Streamlit performance)
-_model = None
+from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
 
+_analyzer = None
 def get_model():
-    global _model
-    if _model is None:
-        _model = pipeline("sentiment-analysis",model="cardiffnlp/twitter-roberta-base-sentiment")
-    return _model
+    global _analyzer
+    if _analyzer is None:
+        _analyzer = SentimentIntensityAnalyzer()
+    return _analyzer
+
+
+def detect_sentiment(text: str):
+    """
+    Returns:
+    - compound score (-1 to 1)
+    - label (positive/neutral/negative)
+    """
+    analyzer = get_model()
+    score = analyzer.polarity_scores(text)["compound"]
+    if score >= 0.05:
+        label = "positive"
+    elif score <= -0.05:
+        label = "negative"
+    else:
+        label = "neutral"
+
+    return {
+        "score": score,
+        "label": label
+    }
 
 def detect_emotion(text: str):
-    """
-    ML-only sentiment detection.
-    """
-    model = get_model()
-    if not text or not text.strip():
-        return {
-            "score": 0.0,
-            "label": "neutral"
-        }
-    result = model(text[:512])[0]
-    label = result["label"]
-    score = result["score"]
-    # normalize to [-1, 1]
-    if label == "POSITIVE":
-        final_score = float(score)
-        final_label = "positive"
+    res = detect_sentiment(text)
+    score = res["score"]
+    # lightweight emotion mapping (simple ML heuristic layer)
+    if score > 0.6:
+        emotion = "joy"
+    elif score > 0.2:
+        emotion = "affection"
+    elif score > 0.05:
+        emotion = "calm"
+    elif score < -0.6:
+        emotion = "anger"
+    elif score < -0.2:
+        emotion = "sadness"
     else:
-        final_score = -float(score)
-        final_label = "negative"
-    return {
-        "score": final_score,
-        "label": final_label
-    }
+        emotion = "neutral"
+    res["emotion"] = emotion
+    return res
