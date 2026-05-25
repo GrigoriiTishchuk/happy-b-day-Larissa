@@ -7,3 +7,4 @@ Pillow
 reportlab
 pydeck
 vaderSentiment
+python-dotenv

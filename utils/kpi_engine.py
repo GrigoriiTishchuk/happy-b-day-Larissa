@@ -2,9 +2,6 @@ import json
 from collections import Counter
 from datetime import datetime
 import pandas as pd
-def load_events(path="data/events.json"):
-    with open(path, "r", encoding="utf-8") as f:
-        return json.load(f)
 
 # MAIN DASHBOARD KPIS
 def compute_kpis(events):

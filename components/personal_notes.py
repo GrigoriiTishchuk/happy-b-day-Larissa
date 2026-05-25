@@ -1,5 +1,7 @@
 from components.observation_pdf import generate_observation_report
 import streamlit as st
+from dotenv import load_dotenv, dotenv_values 
+load_dotenv()
 
 def render_pdf ():
     st.subheader("Restricted Field Archive Export")
@@ -8,7 +10,7 @@ def render_pdf ():
     Access is restricted due to emotional sensitivity protocols.
     """)
     # PASSWORD SYSTEM
-    CORRECT_PASSWORD = "cheese man"
+    CORRECT_PASSWORD = dotenv_values().get("CORRECT_PASSWORD", "cheese123")
     st.markdown("""
     Hint: 
     We both love cheese, but I have a unique title, that you gave me.

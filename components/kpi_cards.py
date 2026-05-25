@@ -1,8 +1,9 @@
 import streamlit as st
-from utils.kpi_engine import load_events, compute_kpis
+from utils.kpi_engine import compute_kpis
+from utils.loaders import load_json
 
 def render_kpis():
-    events = load_events()
+    events = load_json("data/events.json", default=[])
     kpis = compute_kpis(events)
     col1, col2, col3, col4 = st.columns(4)
     
