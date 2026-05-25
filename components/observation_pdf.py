@@ -193,4 +193,3 @@ def generate_observation_report(output_path="field_observations_report.pdf"):
     elements.append(final_text)
     # BUILD PDF
     doc.build(elements)
-    return output_path

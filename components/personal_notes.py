@@ -14,6 +14,7 @@ def render_pdf ():
     st.markdown("""
     Hint: 
     We both love cheese, but I have a unique title, that you gave me.
+    If you don't know, what researcher is talking about, ask him directly.
     """)
     password = st.text_input("Enter access password",type="password")
 
