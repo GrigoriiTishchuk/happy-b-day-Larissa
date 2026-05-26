@@ -24,7 +24,7 @@ def render_communication_tab():
         y="count",
         title="Message Volume Over Time"
     )
-    st.plotly_chart(fig1, use_container_width=True)
+    st.plotly_chart(fig1, width="stretch")
 
     # HEATMAP (hour vs day)
     heatmap_data = df.groupby(["date", "hour"]).size().reset_index(name="count")
@@ -35,7 +35,7 @@ def render_communication_tab():
         z="count",
         title="Communication Heatmap"
     )
-    st.plotly_chart(fig2, use_container_width=True)
+    st.plotly_chart(fig2, width="stretch")
 
     # PIE CHART (balance)
     balance = df["sender"].value_counts().reset_index()
@@ -46,7 +46,7 @@ def render_communication_tab():
         values="count",
         title="Communication Balance"
     )
-    st.plotly_chart(fig3, use_container_width=True)
+    st.plotly_chart(fig3, width="stretch")
 
     # HOURLY ACTIVITY
     hourly = df.groupby("hour").size().reset_index(name="count")
@@ -56,7 +56,7 @@ def render_communication_tab():
         y="count",
         title="Hourly Activity Distribution"
     )
-    st.plotly_chart(fig4, use_container_width=True)
+    st.plotly_chart(fig4, width="stretch")
 
     # EMOTION DISTRIBUTION
     emotion_dist = (df.groupby(["sender", "emotion"]).size().reset_index(name="count"))
@@ -68,7 +68,7 @@ def render_communication_tab():
         barmode="stack",
         title="Emotion Distribution by Sender"
     )
-    st.plotly_chart(fig5, use_container_width=True)
+    st.plotly_chart(fig5, width="stretch")
     # SENTIMENT trend (mean of sentiment scores per day)
     sentiment_trend = df.groupby("date")["sentiment_score"].mean().reset_index()
     fig6 = px.line(
@@ -77,7 +77,7 @@ def render_communication_tab():
         y="sentiment_score",
         title="Sentiment Over Time"
     )
-    st.plotly_chart(fig6, use_container_width=True)
+    st.plotly_chart(fig6, width="stretch")
     # EMOTIONAL VOLATILITY (standard deviation of sentiment scores per day)
     volatility = df.groupby("date")["sentiment_score"].std().reset_index()
     fig7 = px.line(
@@ -87,4 +87,4 @@ def render_communication_tab():
         title="Emotional Volatility"
     )
 
-    st.plotly_chart(fig7, use_container_width=True)
+    st.plotly_chart(fig7, width="stretch")

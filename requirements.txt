@@ -8,3 +8,4 @@ reportlab
 pydeck
 vaderSentiment
 python-dotenv
+extra_streamlit_components

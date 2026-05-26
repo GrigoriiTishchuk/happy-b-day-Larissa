@@ -32,7 +32,6 @@ def typewriter(text: str, speed: float = 0.03):
     return placeholder
 
 def fade_transition(duration=1.2):
-
     st.markdown(f"""
     <style>
     @keyframes fadeToBlack {{
