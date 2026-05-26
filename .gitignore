@@ -1,5 +1,4 @@
 # Data private
-data/*.txt
 secrets.toml
 
 # Byte-compiled / optimized / DLL files
