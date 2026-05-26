@@ -1,15 +1,254 @@
 [
   {
     "id": 1,
-    "title": "Coffee Exposure Response",
-    "observation": "Subject displays measurable increase in conversational energy after caffeine intake.",
+    "title": "First Encounter",
+    "observation": "When I first saw her, she was sparkling through the crowd of unknown people, being spicy and great.",
     "details": [
-      "increased smiling frequency",
-      "higher storytelling output",
-      "stable eye contact retention"
+      "immediate attraction",
+      "she stood out from everyone around",
+      "energy felt magnetic and impossible to ignore",
+      "first visual contact stayed in memory instantly"
     ],
-    "conclusion": "Further coffee-based interaction protocols recommended.",
-    "severity": "low-risk",
-    "category": "caffeine"
+    "conclusion": "Curiosity and attraction formed immediately.",
+    "severity": "high",
+    "category": "first-impression"
+  },
+  {
+    "id": 2,
+    "title": "Beer Acceptance",
+    "observation": "I saw her accepting my beer in the bar, first time, I thought - wow, she is great and can accept it",
+    "details": [
+      "social barrier lowered instantly",
+      "interaction felt natural",
+      "confidence increased after positive response",
+      "first shared moment created excitement"
+    ],
+    "conclusion": "Initial interaction succeeded and opened the door for further communication.",
+    "severity": "medium",
+    "category": "social"
+  },
+  {
+    "id": 3,
+    "title": "First Long Conversation",
+    "observation": "A couple of hours later, I was talking with her, mesmerized by the smile and her energy slipping out my kinks to check if she is good, but my god she was fine.",
+    "details": [
+      "conversation felt effortless",
+      "her smile completely disarmed me",
+      "I was internally checking if she was genuinely this good",
+      "energy and chemistry were overwhelming"
+    ],
+    "conclusion": "Emotional and conversational chemistry escalated quickly.",
+    "severity": "critical",
+    "category": "connection"
+  },
+  {
+    "id": 4,
+    "title": "Lingua Cafe Jealousy",
+    "observation": "In lingua caffee, she was talking with some guys, I was a bit jealous, even though she wasn't mine.",
+    "details": [
+      "unexpected jealousy appeared early",
+      "emotional attachment already started forming",
+      "internal conflict between logic and feelings",
+      "desire for her attention became noticeable"
+    ],
+    "conclusion": "Feelings became deeper than casual interest.",
+    "severity": "medium",
+    "category": "emotions"
+  },
+  {
+    "id": 5,
+    "title": "The Leap of Faith",
+    "observation": "We went for a date, talked openly, and I took a leap of faith and wanted her to be mine by being bold in physical actions, she loved it and then, it became a real start to us.",
+    "details": [
+      "fear of scaring her away disappeared",
+      "she accepted my interests and personality fully",
+      "mutual openness increased dramatically",
+      "physical confidence created a turning point"
+    ],
+    "conclusion": "Relationship officially transitioned into something real.",
+    "severity": "life-changing",
+    "category": "relationship"
+  },
+  {
+    "id": 6,
+    "title": "First Night Together",
+    "observation": "Honestly, I remember how I was nervous coming to her place, but she was so fricking kind to accept me who and how I am.",
+    "details": [
+      "high nervousness before arrival",
+      "she created a feeling of safety immediately",
+      "acceptance felt genuine",
+      "sleeping together felt peaceful and intimate"
+    ],
+    "conclusion": "Trust and comfort were established deeply.",
+    "severity": "high",
+    "category": "trust"
+  },
+  {
+    "id": 7,
+    "title": "Tallinn Holiday Period",
+    "observation": "We cooked some vegan food, she was so lovely, warm, I wanted her to be so close.",
+    "details": [
+      "domestic moments felt meaningful",
+      "shared cooking increased emotional intimacy",
+      "small actions felt incredibly important",
+      "I wanted to become better for her"
+    ],
+    "conclusion": "Feelings evolved into emotional attachment and devotion.",
+    "severity": "deep",
+    "category": "daily-life"
+  },
+  {
+    "id": 8,
+    "title": "Jazz Incident",
+    "observation": "She told, that jazz is not her thing, but she still introduced me with some jazz+rock remix.",
+    "details": [
+      "musical incompatibility discovered",
+      "still tried to share music with me",
+      "humor became part of the relationship",
+      "she remained fricking 10/10 regardless"
+    ],
+    "conclusion": "Differences became playful rather than problematic.",
+    "severity": "low",
+    "category": "humor"
+  },
+  {
+    "id": 9,
+    "title": "Concert and Club Night",
+    "observation": "We went to a club, where after some time she took care of me on way back home, when I was vulnerable as hell and we ate some juicy burgers.",
+    "details": [
+      "shared nightlife experiences strengthened bond",
+      "she showed care during vulnerable moment",
+      "feeling protected increased emotional trust",
+      "late-night burgers became part of the memory"
+    ],
+    "conclusion": "Her care during vulnerability strengthened the relationship significantly.",
+    "severity": "high",
+    "category": "care"
+  },
+  {
+    "id": 10,
+    "title": "Dreamlike April",
+    "observation": "All April was like a huge dream, me studying, coming back to her and be loved.",
+    "details": [
+      "routine life became emotionally meaningful",
+      "anime, series and physical closeness created comfort",
+      "returning to her felt like home",
+      "May felt calmer but emotionally stronger"
+    ],
+    "conclusion": "Relationship integrated into everyday life naturally.",
+    "severity": "stable",
+    "category": "memory"
+  },
+  {
+    "id": 11,
+    "title": "Character Analysis",
+    "observation": "She is smart, beautiful, spicy, kinky, kind and empathetic to others.",
+    "details": [
+      "supports and accepts me emotionally",
+      "balances intelligence with warmth",
+      "motivates me during studies and work",
+      "feels both strong and cute simultaneously"
+    ],
+    "conclusion": "Admiration expanded beyond attraction into genuine love.",
+    "severity": "maximum",
+    "category": "admiration"
+  },
+  {
+    "id": 12,
+    "title": "Beer Preferences",
+    "observation": "Weird is that she only likes lager, not even white beer, but that is okay.",
+    "details": [
+      "unexpected taste preferences detected",
+      "minor incompatibility accepted peacefully",
+      "became another playful detail about her",
+      "did not affect attraction levels whatsoever"
+    ],
+    "conclusion": "Small differences became part of her charm.",
+    "severity": "minimal",
+    "category": "quirks"
+  },
+  {
+    "id": 13,
+    "title": "Anime Validation",
+    "observation": "She watched anime series with me that I adored aaand she liked them, that means to me a lot.",
+    "details": [
+      "shared interests became emotionally important",
+      "feeling understood increased",
+      "personal hobbies felt accepted",
+      "mutual enjoyment strengthened connection"
+    ],
+    "conclusion": "Shared experiences reinforced emotional intimacy.",
+    "severity": "high",
+    "category": "shared-interests"
+  },
+  {
+    "id": 14,
+    "title": "Sleepy Gremlin State",
+    "observation": "She is so funny, when she is sleepy, like a gremlin that needs some fun.",
+    "details": [
+      "sleepy behavior increases affection levels",
+      "her humor feels natural and adorable",
+      "small chaotic moments became memorable",
+      "desire to experience more of these moments"
+    ],
+    "conclusion": "Affection extends deeply into everyday imperfections.",
+    "severity": "cute",
+    "category": "behavior"
+  },
+  {
+    "id": 15,
+    "title": "Emotional Strength",
+    "observation": "She is trying so hard to do great to me. She went through so much during her life, but she is strong.",
+    "details": [
+      "I sometimes question if I deserve her",
+      "she continues trying despite her past struggles",
+      "her resilience is deeply attractive",
+      "mutual emotional understanding keeps growing"
+    ],
+    "conclusion": "Love is reinforced by empathy, resilience and care.",
+    "severity": "profound",
+    "category": "emotional-depth"
+  },
+  {
+    "id": 16,
+    "title": "Future Coop Gaming",
+    "observation": "Now I want to play with her in some coop games.",
+    "details": [
+      "shared gaming future imagined often",
+      "competitive personality makes her interesting",
+      "possible PS5 or Xbox sessions imagined together",
+      "coop games feel emotionally meaningful"
+    ],
+    "conclusion": "Future experiences together are actively imagined and desired.",
+    "severity": "hopeful",
+    "category": "future"
+  },
+  {
+    "id": 17,
+    "title": "Personal History Sharing",
+    "observation": "She told me her story, about mom, her health, her relationship with Leah.",
+    "details": [
+      "deep trust was placed in me",
+      "personal stories increased emotional intimacy",
+      "I want to remember everything about her",
+      "her honesty made me value her even more"
+    ],
+    "conclusion": "Emotional connection reached deeply personal level.",
+    "severity": "sacred",
+    "category": "trust"
+  },
+  {
+    "id": 18,
+    "title": "Final Realization",
+    "observation": "I LOVE HER",
+    "details": [
+      "all experiences led to this conclusion",
+      "feelings became undeniable",
+      "emotional certainty reached maximum",
+      "love became impossible to suppress"
+    ],
+    "conclusion": "No further analysis required.",
+    "severity": "irreversible",
+    "category": "love"
   }
 ]
