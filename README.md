@@ -19,18 +19,13 @@ The result is a **birthday experience disguised as an environmental / emotional 
 
 # 🎯 Concept
 
-The app simulates a fictional research institute analyzing a relationship as if it were an ecological / emotional dataset.
-
-Everything is presented as:
-> “Longitudinal Emotional Impact Study”
-
-But in reality, it is a personalized interactive love letter.
+The app simulates a fictional research institute analyzing a relationship as if it were an analytical / emotional dataset.
 
 ---
 
 # 🧠 Core Idea Modules
 
-## 1. 🎬 Intro Video (Research Director Message)
+## 1. Intro Video (Lead Researcher Message)
 - A short personal video of you
 - Introduces the “research report”
 - Sets emotional tone
@@ -48,8 +43,6 @@ A fake scientific dashboard showing “metrics” like:
 - Happiness Levels
 - Probability of Missing Each Other
 
-**Goal:** humor + data aesthetic
-
 ---
 
 ## 3. 🧾 Timeline of Memories
@@ -64,8 +57,6 @@ Each entry includes:
 - description
 - optional location
 - emotional tag
-
-**Goal:** emotional core of the project
 
 ---
 
@@ -159,9 +150,6 @@ Theme:
 
 ---
 
-
----
-
 # ⚙️ Tech Stack
 
 - Streamlit
@@ -175,36 +163,6 @@ Theme:
 
 ---
 
-# 🚀 Build Order (IMPORTANT)
-
-To avoid getting overwhelmed, build in this order:
-
-### Phase 1 — Core skeleton
-- Streamlit layout
-- navigation pages
-- styling system
-
-### Phase 2 — Data modules
-- KPI dashboard
-- timeline
-- observations
-
-### Phase 3 — Visual richness
-- map
-- gallery
-- charts
-
-### Phase 4 — Emotional layer
-- intro video
-- ambient audio
-- animations
-
-### Phase 5 — Final polish
-- PDF report
-- transitions
-- UX smoothing
-
----
 
 # 💡 Design Philosophy
 
@@ -219,11 +177,9 @@ The goal is not correctness — but **emotion + immersion through data aesthetic
 
 ---
 
-# ❤️ End Goal
+# End Goal
 
 A birthday experience that feels like:
 
 > “I built you a scientific research system that proves how amazing you are.”
 
-
-# 🧱 Project Architecture
