@@ -55,7 +55,7 @@ with tab3:
 
 with tab4:
     render_pdf()
-    if st.button("Continue from Personal Notes"):
+    if st.button("Continue from Personal Notes - Do not Touch if you haven't explored the notes yet"):
         st.session_state.visited_tabs["notes"] = True
 
 # OUTRO CONDITION

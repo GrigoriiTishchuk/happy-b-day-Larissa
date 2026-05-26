@@ -18,5 +18,6 @@ def render_outro():
     st.video(video_bytes)
     st.markdown("---")
     st.caption("End of report.")
+    
 
 render_outro()
