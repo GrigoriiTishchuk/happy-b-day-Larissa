@@ -14,6 +14,8 @@ st.set_page_config(page_title="Dashboard", layout="wide")
 load_styles()
 init_particles()
 play_ambient()
+if "outro_triggered" not in st.session_state:
+    st.session_state.outro_triggered = False
 
 if "visited_tabs" not in st.session_state:
     st.session_state.visited_tabs = {
@@ -60,6 +62,7 @@ with tab4:
 
 # OUTRO CONDITION
 all_seen = all(st.session_state.visited_tabs.values())
-if all_seen:
+if all_seen and not st.session_state.outro_triggered:
+    st.session_state.outro_triggered = True
     fade_transition()
     st.switch_page("pages/outro.py")

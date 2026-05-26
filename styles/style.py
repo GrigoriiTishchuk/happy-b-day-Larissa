@@ -16,6 +16,22 @@ def load_styles():
         padding: 10px;
         border-radius: 10px;
     }
+    .stButton > button {
+        background-color: #1f2937;
+        color: white;
+        border-radius: 10px;
+        border: none;
+        padding: 0.5rem 1rem;
+    }
+
+    .stButton > button:hover {
+        background-color: #374151;
+        color: white;
+    }
+
+    .stButton > button:active {
+        background-color: #111827;
+    }
     audio {
         display: none;
     }

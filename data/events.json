@@ -80,8 +80,8 @@
     "id": 5,
     "title": "First Overnight Stay",
     "date": "2026-04-13",
-    "lat": 60.2372,
-    "lon": 24.0805,
+    "lat": 60.237944,
+    "lon": 25.087666,
     "emotion": "intimate",
     "intensity": 0.92,
     "summary": "Shared domestic environment established.",
@@ -101,8 +101,8 @@
     "title": "Larissa Stayed at Grigorii's Place",
     "date": "2026-04-24",
     "end_date": "2026-04-27",
-    "lat": 60.2050,
-    "lon": 24.6560,
+    "lat": 60.201417,
+    "lon": 24.665833,
     "emotion": "stable",
     "intensity": 0.95,
     "summary": "Multi-day cohabitation experiment successful.",
@@ -119,30 +119,49 @@
 
   {
     "id": 7,
-    "title": "Ikina Concert & Club Night",
+    "title": "Ikina Concert",
     "date": "2026-04-25",
     "lat": 60.16912,
     "lon": 24.94589,
     "emotion": "euphoric",
     "intensity": 0.91,
     "summary": "High-energy shared sensory experience.",
-    "story": "Music-heavy environment amplified emotional resonance significantly. Elevated excitement levels, movement synchronization, and physical proximity generated strong memory imprinting.",
+    "story": "Music-heavy environment amplified emotional resonance significantly. ",
     "tags": [
       "concert",
       "music",
-      "club",
-      "euphoria"
+      "bar",
+      "chill"
+    ],
+    "media": [
+    ]
+  },
+   {
+    "id": 8,
+    "title": "Club Night",
+    "date": "2026-04-26",
+    "lat": 60.16912,
+    "lon": 24.94589,
+    "emotion": "euphoric",
+    "intensity": 0.91,
+    "summary": "High-energy shared sensory experience and toilet engagement.",
+    "story": "Trance like environment amplified emotional resonance significantly. Elevated excitement levels, movement synchronization, and physical proximity generated strong memory imprinting.",
+    "tags": [
+      "club-night",
+      "music",
+      "closeness",
+      "chill"
     ],
     "media": [
 
     ]
   },
     {
-     "id": 8,
+     "id": 9,
      "title": "Falling incident during chill day",
      "date": "2026-05-09",
-     "lat": 60.09018,
-     "lon": 24.38043,
+     "lat": 60.150222,
+     "lon": 24.634361,
      "emotion": "euphoric",
      "intensity": 0.91,
      "summary": "Fruitful picnic event with sharing of our stories.",
@@ -159,7 +178,7 @@
      ]
       },
   {
-    "id": 9,
+    "id": 10,
     "title": "Trip to Lammassaari",
     "date": "2026-05-14",
     "lat": 60.12332,
@@ -184,7 +203,7 @@
   },
 
   {
-    "id": 10,
+    "id": 11,
     "title": "Temporary Farewell",
     "date": "2026-05-15",
     "lat": 60.3184,
