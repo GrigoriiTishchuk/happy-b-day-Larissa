@@ -40,17 +40,17 @@ tab1, tab2, tab3, tab4 = st.tabs([
 
 with tab1:
     render_timeline()
-    if st.button("Continue from Timeline"):
+    if st.button("Continue from Timeline - TOUCH THE BUTTON and Proceed to Map where tabs are"):
         st.session_state.visited_tabs["timeline"] = True
 
 with tab2:
     render_map()
-    if st.button("Continue from Map"):
+    if st.button("Continue from Map - TOUCH THE BUTTON and Proceed to Communication where tabs are"):
         st.session_state.visited_tabs["map"] = True
 
 with tab3:
     render_communication_tab()
-    if st.button("Continue from Communication"):
+    if st.button("Continue from Communication - TOUCH THE BUTTON and Proceed to Personal Notes where tabs are"):
         st.session_state.visited_tabs["communication"] = True
 
 with tab4:
