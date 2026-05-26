@@ -15,7 +15,7 @@ def render_pdf():
     We both love cheese, but I have a unique title, that you gave me.
     """)
 
-    password = st.text_input("Enter access password", type="password", placeholder="Enter cheese-related password")
+    password = st.text_input("Enter access password", type="password", placeholder="Enter cheese-related password and PRESS ENTER!")
     # INIT STATE
     if "pdf_buffer" not in st.session_state:
         st.session_state.pdf_buffer = None
