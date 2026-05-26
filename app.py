@@ -65,7 +65,7 @@ elif st.session_state.phase == "boot":
 elif st.session_state.phase == "intro":
     st.markdown("<h1 class='center'>Message From Lead Researcher</h1>", unsafe_allow_html=True)
     st.markdown("---")
-    st.video("assets/video/intro.mp4", autoplay=True, muted=True)
+    st.video("assets/video/intro.mp4", muted=True)
     st.markdown("---")
     if st.button("Enter Research Dashboard"):
         fade_transition()
