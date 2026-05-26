@@ -5,3 +5,7 @@ folium
 streamlit-folium
 Pillow
 reportlab
+pydeck
+vaderSentiment
+python-dotenv
+extra_streamlit_components
