@@ -223,8 +223,23 @@
     "severity": "hopeful",
     "category": "future"
   },
-  {
+   {
     "id": 17,
+    "title": "Anime, from my oart",
+    "observation": "I wanted to show her my, some favourite anime.",
+    "details": [
+      "sharing personal interests feels important",
+      "hoping for mutual enjoyment and understanding",
+      "anime becomes a way to connect emotionally",
+      "I got the feeling she gets it, even if she doesn't like it as much as I do",
+      "But she tries... I love the spirit of trying and sharing"
+    ],
+    "conclusion": "Sharing personal passions is a way to deepen emotional connection.",
+    "severity": "singnificant, but not critical, not big",
+    "category": "emotional-depth"
+  },
+  {
+    "id": 18,
     "title": "Personal History Sharing",
     "observation": "She told me her story, about mom, her health, her relationship with Leah.",
     "details": [
@@ -238,7 +253,7 @@
     "category": "trust"
   },
   {
-    "id": 18,
+    "id": 19,
     "title": "Final Realization",
     "observation": "I LOVE HER",
     "details": [
