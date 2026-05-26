@@ -9,7 +9,7 @@ def render_pdf():
     This archive contains classified observational data.
     Access is restricted due to emotional sensitivity protocols.
     """)
-    CORRECT_PASSWORD = dotenv_values().get("CORRECT_PASSWORD", "cheese123")
+    CORRECT_PASSWORD = dotenv_values().get("CORRECT_PASSWORD", "cheese man")
     st.markdown("""
     Hint:  
     We both love cheese, but I have a unique title, that you gave me.
