@@ -25,12 +25,14 @@ def render_pdf():
 
     # PASSWORD PHASE
     if not st.session_state.pdf_verified:
-        password = st.text_input(
-            "Enter access password",
-            type="password",
-            placeholder="Enter cheese-related password and PRESS ENTER!"
-        )
-        if st.button("Verify Access"):
+        with st.form("password_form"):
+            password = st.text_input(
+                "Enter access password",
+                type="password",
+                placeholder="Enter cheese-related password and PRESS ENTER!"
+            )
+            submitted = st.form_submit_button("Verify Access")
+        if submitted:
             if password.lower() == CORRECT_PASSWORD.lower():
                 st.session_state.pdf_verified = True
                 st.rerun()
